@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beach Sunset inmobiliaria</title>
     <link rel="stylesheet" href="estilos.css">
+    <script src="página.js"></script>
+    <script src="./jquery-ui-1.13.3.custom/external/jquery/jquery.js"></script>
 </head>
 <body backcolor="#E5E3E4">
     <div id="contenedor">
@@ -27,15 +29,17 @@
         <section>
             <div class="alquiler">
                 <table>
-                    <th><a href="Alquiler.html"><h2>Alquiler</h2></a></th>
+                    <div class="botonalquiler">
+                    <a href="Alquiler.html"><h2>Alquiler</h2></a>
+                    </div>
                     <tr>
-                        <td><img src="./imagenes/Casa Mar de las Pampas Sol de Mares.jpg" alt=""></td>
-                        <td><img src="./imagenes/Casa Mar de las Pampas.jpg" alt=""></td>
-                        <td><img src="./imagenes/Casa Mar de las Pampas Casa Libertad.jpg" alt=""></td>
-                        <td><img src="./imagenes/Departamento La Posta de Cariló.jpg" alt=""></td>
-                        <td><img src="./imagenes/Departamento  Cariló Vista.jpg" alt=""></td>
-                        <td><img src="./imagenes/INN Cariló.jpg" alt=""></td>
-                        <td><img src="./imagenes/casa pinamar 4.jpg" alt=""></td>
+                        <td><img src="./imagenes/Mar de las Pampas/Casa Mar de las Pampas Sol de Mares.jpg" alt=""></td>
+                        <td><img src="./imagenes/Mar de las Pampas/Casa Mar de las Pampas.jpg" alt=""></td>
+                        <td><img src="./imagenes/Mar de las Pampas/Casa Mar de las Pampas Casa Libertad.jpg" alt=""></td>
+                        <td><img src="./imagenes/Cariló/Departamento La Posta de Cariló.jpg" alt=""></td>
+                        <td><img src="./imagenes/Cariló/Departamento  Cariló Vista.jpg" alt=""></td>
+                        <td><img src="./imagenes/Cariló/INN Cariló.jpg" alt=""></td>
+                        <td><img src="./imagenes/Pinamar/depto 4 pinamar.jpg" alt=""></td>
                     </tr>
                     <tr>
                         <td><h3>Sol de Mares</h3></td>
@@ -50,15 +54,17 @@
             </div>
             <div class="ventas">
                 <table>
-                    <th><a href="Venta.html"><h2>Venta</h2></a></th>
+                    <div class="botonventas">
+                        <a href="Venta.html"><h2>Venta</h2></a>
+                    </div>
                     <tr>
-                        <td><img src="./imagenes/Departamento Mar de las Pampas Runa Moraira.jpg" alt=""></td>
-                        <td><img src="./imagenes/Departamento Nova Pampa.jpg" alt=""></td>
-                        <td><img src="./imagenes/Departamento Purto Delfín.jpg" alt=""></td>
-                        <td><img src="./imagenes/Casa Magnolia.jpg" alt=""></td>
-                        <td><img src="./imagenes/Cariló Beach.jpg" alt=""></td>
-                        <td><img src="./imagenes/Grace Castle.jpg" alt=""></td>
-                        <td><img src="./imagenes/depto 4 pinamar.jpg" alt=""></td>
+                        <td><img src="./imagenes/Mar de las Pampas/Departamento Mar de las Pampas Runa Moraira.jpg" alt=""></td>
+                        <td><img src="./imagenes/Mar de las Pampas/Departamento Nova Pampa.jpg" alt=""></td>
+                        <td><img src="./imagenes/Mar de las Pampas/Departamento Purto Delfín.jpg" alt=""></td>
+                        <td><img src="./imagenes/Cariló/Casa Magnolia.jpg" alt=""></td>
+                        <td><img src="./imagenes/Cariló/Cariló Beach.jpg" alt=""></td>
+                        <td><img src="./imagenes/Cariló/Grace Castle.jpg" alt=""></td>
+                        <td><img src="./imagenes/Pinamar/depto 4 pinamar.jpg" alt=""></td>
                     </tr>
                     <tr>
                     <td><h3>Runa Moraira</h3></td>
@@ -84,7 +90,7 @@
                 <div class="contenidos">
                     <h3>Acerca de nosotros</h3>
                     <ul class="list">
-                        <li><a href="Beach Sunset.html">Beach Sunset</a></li>
+                        <li><a href="Beachsunset.html">Beach Sunset</a></li>
                     </ul>
                 </div>
                 <div class="contenidos">
@@ -101,5 +107,8 @@
             </div>
         </footer>
     </div>
+    <script language="JavaScript">
+        document.getElementById ("Enviar").addEventListener (click, presionarboton())
+    </script>
 </body>
 </html>
